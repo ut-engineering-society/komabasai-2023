@@ -162,7 +162,7 @@ header {
 }
 #intro {
     background-color: rgb(152, 255, 210);
-    height: 400px;
+    padding-bottom: 100px;
 }
 .large {
     font-size: 25px;
@@ -171,18 +171,19 @@ header {
     justify-content: center;
     align-items: center;
     width: 80vw;
+    position: relative;
 }
 .link-btn {
-	justify-content: center;
-	align-content: center;
-    align-self: center;
+    display: block;
+    padding: 17px 0 0 0;
     position: absolute;
     margin:30px 0px 30px 0px;
 	width: 300px;
-	height: 60px;
+	height: 45px;
 	color: rgb(37, 37, 37);
 	font-size: 18px;
 	font-weight: 700;
+    border: solid;
 	text-decoration: none;
     transition: 0.3s;
     transform: translateX(50%);
@@ -220,6 +221,7 @@ header {
 }
 .game-explanation {
     text-decoration: none;
+    color: inherit;
 }
 #report {
     background-color: rgb(166, 228, 255);
