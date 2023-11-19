@@ -225,4 +225,8 @@ header {
 }
 #report {
     background-color: rgb(166, 228, 255);
+    text-align: start;
+}
+.report_section {
+    margin: 40px 0;
 }
