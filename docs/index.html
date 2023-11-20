@@ -29,39 +29,54 @@
 
     <main>
         <section class="title1">
-            <h1 class="title-size">ゲームで始めるプログラミング</h1>
-            <h2 class="subtitle-size">Let's start programing thourgh Games</h2>
+            <h1>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./images/top_view_sp.png">
+                    <img src="./images/top_view_pc.png" class="top-view"
+                        alt="ゲームで始めるプログラミング ~Let's start programming through Games~"
+                    >
+                </picture>
+            </h1>
+            <!-- <h1 class="title-size">ゲームで始めるプログラミング</h1>
+            <h2 class="subtitle-size">Let's start programing thourgh Games</h2> -->
         </section>
         <section class="sect" id="intro">
-            <h1 class="h1">東大エンジニアリング研究会</h1>
+            <h2 class="section-title">東大エンジニアリング研究会</h2>
             <div id="engneering">
                 <p class="large">「実行のためのコミュニティ」を合言葉に掲げる、開発・研究・学習の相互補助を目指す開発コミュニティです。</p>
                 <p class="large">少人数のセミナーによる進捗報告会や特定のテーマに関する勉強会などを通し、エンジニアリングに関する知見を共有し、お互いに高め合えるよう活動しています。</p>
-                <a class="link-btn" href="https://twitter.com/UT_HackerClub">X  (twitter)</a>
             </div>
+            <a class="link-btn floating" href="https://twitter.com/UT_HackerClub"
+                target="_blank" rel="noopener noreferrer"
+            >
+                <span>公式</span>
+                <img class="x_logo" src="./images/x_logo.png" alt="X（Twitter）のロゴ">
+                <span>はこちら</span>
+            </a>
         </section>
         <section class="sect" id="game-introduction">
-            <h1 class="h1">ゲーム紹介</h1>
+            <h2 class="section-title">ゲーム紹介</h2>
             <p class="large">駒場祭に向けてエンジニアリング研究会メンバーが作ったゲームをお楽しみください！</p>
-            <div id="Games">
-                <div class="game">
-                    <a href="https://zuisho-1848-o.github.io/game-world/games/mineSweeper/"
-                    class="game-explanation" target="_blank" rel="noopener noreferrer"
-                    >
-                        <img src="./images/mineSweeper.png" alt="マインスイーパー" id="photo1">
-                        <h1 class="name game-explanation">マインスイーパー</h1>
-                        <p class="game-explanation">ずっと飽きないゲーム代表！無限に遊べる地雷探し。</p>
-                    </a>
-                </div>
-                <div class="game">
-                    <img src="" alt="のゲーム">
-                    <a href=""
-                    class="game-explanation">のゲーム</a>
-                </div>
+            <div id="games">
+                <a href="https://zuisho-1848-o.github.io/game-world/games/mineSweeper/"
+                class="game floating" target="_blank" rel="noopener noreferrer"
+                >
+                    <img src="./images/mineSweeper.png" alt="マインスイーパー" class="game-image">
+                    <h3 class="game-name">マインスイーパー</h3>
+                    <p>ずっと飽きないゲーム代表！<br>無限に遊べる地雷探し。</p>
+                </a>
+                <a href="#" class="game floating">
+                    <img src="./images/mineSweeper.png" alt="のゲーム" class="game-image">
+                    <h3 class="game-name">のゲーム</h3>
+                    <p>のゲーム</p>
+                </a>
             </div>
+            <a href="https://ut-engineering-society.github.io/may-fes/"
+                class="may-fes-game floating link-btn" target="_blank" rel="noopener noreferrer"
+            >五月祭のゲームはこちら</a>
         </section>
         <section class="sect" id="report">
-            <h1 class="h1">活動報告</h1>
+            <h2 class="section-title">活動報告</h2>
             <div>
                 <h2 class="report_section report_title">研究会の活動を通じて触れた技術</h2>
                 <article class="report_sec">
@@ -129,7 +144,7 @@
             </div>
         </section>
     </main>
-    <footer style="text-align: center;background-color: gray;">東大エンジニアリング研究会</footer>
+    <footer>東大エンジニアリング研究会</footer>
 </body>
 <script src="main.js"></script>
 </html>
