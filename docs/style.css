@@ -232,27 +232,43 @@ header {
 }
 .game-name {
     font-size: 1.5rem;
-    text-align: center;
 }
 .game-image {
     width: 300px;
     height: auto;
+    border-radius: 10px;
 }
 
 
 #report {
     background-color: rgb(186, 234, 255);
-    text-align: start;
 }
-.report_section {
-    margin: 30px 0;
+
+#reports {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.report_sec {
-    margin: 25px 0;
+
+.report-card {
+    display: block;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
 }
-.report_title {
-    font-size: 1.8rem;
-    text-decoration: underline;
+
+.report-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.report-img {
+    display: block;
+    width: auto;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px auto;
 }
 
 
