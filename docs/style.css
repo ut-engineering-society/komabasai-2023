@@ -12,6 +12,10 @@ html {
     font-size: 16px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -51,7 +55,8 @@ header {
 
 .header-link {
     list-style-type: none;
-    width: 100px;
+    /* width: 100px; */
+    margin: 0 10px;
     text-align: center;
 }
 
@@ -109,6 +114,7 @@ header {
 
 /* スマホの navigation bar */
 @media screen and (max-width:600px) {
+
     #hamburgerBtn {
         display: flex;
     }
@@ -252,6 +258,18 @@ header {
     width: 300px;
     height: auto;
     border-radius: 10px;
+}
+
+
+#algorithm {
+    background-color: #FCF16E;
+}
+
+.algorithm-img {
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+    max-width: 500px;
 }
 
 
